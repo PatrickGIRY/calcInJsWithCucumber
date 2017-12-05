@@ -1,0 +1,22 @@
+{
+  "name": "calcinjswithcucumber",
+  "version": "1.0.0",
+  "description": "Calc in JS with cucumber",
+  "main": "index.js",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "cucumber": "^3.1.0",
+    "jest": "^21.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest && ./node_modules/.bin/cucumber.js"
+  },
+  "keywords": [
+    "javascript",
+    "cucumber"
+  ],
+  "author": "Patrick GIRY",
+  "license": "ISC"
+}
